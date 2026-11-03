@@ -1,0 +1,14 @@
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pcap
+*.pcapng
+*.vdi
+*.iso
+*.ovf
+*.ova
+secrets/
+credentials/
+.DS_Store
