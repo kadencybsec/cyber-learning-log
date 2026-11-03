@@ -1,49 +1,32 @@
-# CYBER LEARNING LOG
-> **Kaden Younis · Learn → practise → explain → revisit**
+# Cyber Learning Log
 
 ![Learning cycle](assets/learning-cycle.svg)
 
-This repository is my ongoing technical notebook for **cybersecurity, computer systems, networking, programming and security analysis**.
+My notes from learning cybersecurity, Linux, networking and programming.
 
-It complements my [project portfolio](https://github.com/kadencybsec/cybersecurity-projects), but it is not tied to any single course, project count or calendar. I use it to record what I learned, why a command worked, how I solved a problem, what failed and what I want to revisit.
+I started this because I want to understand the commands and tools I use, not just copy them from a guide. I'll use it to keep examples, troubleshooting notes and things I want to try again later.
 
-## Where to look
+## Notes
 
-| Topic | Contents |
+| Topic | My notes |
 |:--|:--|
-| [Linux](notes/linux/README.md) | Commands, filesystem, processes, permissions and administration concepts |
-| [Networking](notes/networking/README.md) | TCP/IP, DNS, routing, HTTP/TLS and packet analysis |
-| [Python](notes/python/README.md) | Scripting, testing, file processing and simple automation |
-| [Security](notes/security/README.md) | Security principles, detection, hardening and threat modelling |
-| [HTB and CTF reflections](htb-ctf/README.md) | Learning from authorised challenges, without active spoilers |
-| [Initial baseline](notes/2026-11-baseline.md) | My documented starting point |
+| Linux | [Commands, files and permissions](notes/linux/README.md) |
+| Networking | [TCP/IP, DNS, HTTP and more](notes/networking/README.md) |
+| Python | [Scripts and programming practice](notes/python/README.md) |
+| Security | [Security concepts and defensive techniques](notes/security/README.md) |
+| HTB & CTFs | [Practice notes and reflections](htb-ctf/README.md) |
 
-## How I keep notes
+My [starting point](notes/2026-11-baseline.md) is saved here too.
 
-1. **Observe:** Describe the problem or concept.
-2. **Practise:** Try it in a system I own or an authorised training lab.
-3. **Explain:** Record what my commands, code and decisions actually do.
-4. **Verify:** Run a test or compare to trustworthy documentation.
-5. **Revisit:** Repeat later without simply copying a tutorial.
+## Things I'm working on
 
-Useful reusable templates: [weekly review](templates/weekly-review.md) · [command explanation](templates/command-card.md) · [lab report](templates/lab-writeup.md) · [CTF reflection](templates/ctf-reflection.md).
+- Getting comfortable using Linux without relying on a command list.
+- Understanding what happens on a network when devices and services communicate.
+- Writing small Python scripts myself.
+- Working through security labs and going back to the topics I find difficult.
 
-## Current study routine
+I keep longer projects in [my project repository](https://github.com/kadencybsec/cybersecurity-projects). This repo is mainly for the smaller things I learn along the way.
 
-The 2026–2028 project schedule provides a useful starting cadence, but the repository will continue beyond it.
+## Templates
 
-| Session | Typical use |
-|:--|:--|
-| Foundations | Command recall, networking, OS or programming concepts |
-| Guided learning | HTB Academy, TryHackMe or structured course exercises |
-| Practical work | Lab experiments, independent projects and debugging |
-| Review | Testing, GitHub documentation and next-step planning |
-| Reflection | CTF notes, mistakes, new questions and ideas |
-
-## What this notebook is not
-
-This is **not** an automatically updated HTB scorecard, a claim of professional experience, or a copy of tutorials. A note records learning. A completed portfolio item must also demonstrate reproducible evidence.
-
-Follow the [project index](https://github.com/kadencybsec/cybersecurity-projects/blob/main/PORTFOLIO.md) for selected finished work.
-
-**Publishing standard:** No credentials, personal data, private network details, live malware, or challenge spoilers that violate platform rules.
+[Weekly notes](templates/weekly-review.md) · [Command notes](templates/command-card.md) · [Lab write-up](templates/lab-writeup.md) · [CTF notes](templates/ctf-reflection.md)
