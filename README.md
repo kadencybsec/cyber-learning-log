@@ -1,44 +1,49 @@
 # CYBER LEARNING LOG
 > **Kaden Younis · Learn → practise → explain → revisit**
 
-![Learning map](assets/learning-cycle.svg)
+![Learning cycle](assets/learning-cycle.svg)
 
-A public record of what I am learning as I work towards my first cybersecurity apprenticeship. This is a **learning notebook**, not a claim of expertise or a collection of copied walkthroughs.
+This repository is my ongoing technical notebook for **cybersecurity, computer systems, networking, programming and security analysis**.
 
-## Learning system
+It complements my [project portfolio](https://github.com/kadencybsec/cybersecurity-projects), but it is not tied to any single course, project count or calendar. I use it to record what I learned, why a command worked, how I solved a problem, what failed and what I want to revisit.
 
-| Day | Focus | Evidence |
-|:--|:--|:--|
-| Monday | Recall commands + project planning | One command explained in my own words |
-| Tuesday | Structured learning | Concept notes and two practice questions |
-| Thursday | Isolated practical lab | Reproducible, sanitised observations |
-| Friday | GitHub update | Commit notes and update current project |
-| Saturday | Project evidence | Test and document the deliverable |
-| Sunday | HTB / CTF practice | What I learned, what I solved independently |
+## Where to look
 
-## Notebook
+| Topic | Contents |
+|:--|:--|
+| [Linux](notes/linux/README.md) | Commands, filesystem, processes, permissions and administration concepts |
+| [Networking](notes/networking/README.md) | TCP/IP, DNS, routing, HTTP/TLS and packet analysis |
+| [Python](notes/python/README.md) | Scripting, testing, file processing and simple automation |
+| [Security](notes/security/README.md) | Security principles, detection, hardening and threat modelling |
+| [HTB and CTF reflections](htb-ctf/README.md) | Learning from authorised challenges, without active spoilers |
+| [Initial baseline](notes/2026-11-baseline.md) | My documented starting point |
 
-- [Start here: baseline](notes/2026-11-baseline.md)
-- [Linux notebook](notes/linux/README.md)
-- [Networking notebook](notes/networking/README.md)
-- [Python notebook](notes/python/README.md)
-- [Security basics](notes/security/README.md)
-- [Structured HTB and CTF reflections](htb-ctf/README.md)
-- [Weekly learning reflection template](templates/weekly-review.md)
-- [Command explanation template](templates/command-card.md)
-- [CTF reflection template](templates/ctf-reflection.md)
-- [Lab write-up template](templates/lab-writeup.md)
+## How I keep notes
 
-## My learning rules
+1. **Observe:** Describe the problem or concept.
+2. **Practise:** Try it in a system I own or an authorised training lab.
+3. **Explain:** Record what my commands, code and decisions actually do.
+4. **Verify:** Run a test or compare to trustworthy documentation.
+5. **Revisit:** Repeat later without simply copying a tutorial.
 
-1. **First attempt:** Try the concept without a copied command. Consult `--help`, `man`, error output and official docs.
-2. **Explain it:** Record purpose, safe scope, important flags and expected results.
-3. **Test it:** Use my own lab, permitted training targets and harmless sample data.
-4. **Reflect:** Write what failed and what I changed.
-5. **Revisit:** Retry the same concept without notes after a week.
+Useful reusable templates: [weekly review](templates/weekly-review.md) · [command explanation](templates/command-card.md) · [lab report](templates/lab-writeup.md) · [CTF reflection](templates/ctf-reflection.md).
 
-### Related workspace
+## Current study routine
 
-[70-project main repository](https://github.com/kadencybsec/cybersecurity-projects) · [Current sprint B06](https://github.com/kadencybsec/cybersecurity-projects/tree/main/projects/beginner/B06)
+The 2026–2028 project schedule provides a useful starting cadence, but the repository will continue beyond it.
 
-**Publishing rules:** Do not commit API keys, passwords, private network details, personal records, live malware or current CTF challenge spoilers. Work within permitted lab scope.
+| Session | Typical use |
+|:--|:--|
+| Foundations | Command recall, networking, OS or programming concepts |
+| Guided learning | HTB Academy, TryHackMe or structured course exercises |
+| Practical work | Lab experiments, independent projects and debugging |
+| Review | Testing, GitHub documentation and next-step planning |
+| Reflection | CTF notes, mistakes, new questions and ideas |
+
+## What this notebook is not
+
+This is **not** an automatically updated HTB scorecard, a claim of professional experience, or a copy of tutorials. A note records learning. A completed portfolio item must also demonstrate reproducible evidence.
+
+Follow the [project index](https://github.com/kadencybsec/cybersecurity-projects/blob/main/PORTFOLIO.md) for selected finished work.
+
+**Publishing standard:** No credentials, personal data, private network details, live malware, or challenge spoilers that violate platform rules.
